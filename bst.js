@@ -39,4 +39,4 @@ tree.root.left = new Node(4);
 tree.root.right = new Node(15);
 tree.root.right.right = new Node(150);
 
-console.log(tree.search(150));
+console.log(tree.search(150)); // output : true
