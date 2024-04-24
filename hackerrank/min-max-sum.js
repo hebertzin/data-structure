@@ -7,7 +7,7 @@ function miniMaxSum(arr) {
 
   const maxSum = arr.slice(-4).reduce((acc, curr) => acc + curr, 0);
 
-  console.log(`${minSum} ${maxSum}`);
+  return { maxSum, minSum };
 }
 
 const list = [1, 2, 3, 4, 5];

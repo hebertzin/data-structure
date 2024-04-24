@@ -28,3 +28,4 @@ function plusMinus(arr) {
 const list = [1, 1, 0, -1, -1];
 
 plusMinus(list);
+
