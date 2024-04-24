@@ -15,9 +15,9 @@ function diagonalDifference(arr) {
     secondDiagonal += arr[i][length - i - 1];
   }
 
-  const diference = Math.abs(secondDiagonal - mainDiagonal);
+  const difference = Math.abs(secondDiagonal - mainDiagonal);
 
-  return diference;
+  return difference;
 }
 
 const array = [
